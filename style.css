@@ -1,0 +1,32 @@
+
+
+.external{
+    color: green;
+}
+
+.moving{
+    background-color: beige;
+    color: brown;
+    font-size: x-large;
+}
+
+.para{
+    text-indent: 50px;
+    line-height: 30px;
+    word-spacing: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aside{
+    float: right;
+    height: 35vh;
+    width: 50vw;
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: larger;
+    color: brown;
+}
+
+#link{
+    font-size: x-large;
+}

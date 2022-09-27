@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #internal {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <aside class="aside"> 
+        <h3>Whats new?</h3>
+        <marquee direction="up" onmouseover="stop()" onmouseout="start()">
+            <ol>
+                <li> language </li>
+                <li> text </li>
+                <li> font </li>
+            </ol>
+        </marquee>
+    </aside>
+    <h1 style="color: red;">This is inline CSS</h1>
+
+    <h1 id="internal">This is internal CSS</h1>
+
+    <h1 class="external">This is external CSS</h1><br>
+  
+    <hr>
+
+    <marquee direction="left" onmouseover="stop()" onmouseout="start()" class="moving">
+        This is marquee text
+    </marquee>
+    <hr>
+
+    <p class="para">Lorem <b><u>ipsum</u></b> dolor sit, amet consectetur adipisicing elit. Similique fugit est tempora voluptas minus ea veritatis
+        voluptatibus quibusdam iste, vero blanditiis, recusandae maiores asperiores officia quis. Enim nam eius impedit
+        quis amet quae error recusandae nisi et provident illum ipsam, iusto in soluta est sit molestiae ad vero
+        molestias voluptate.</p>
+
+    <a href="www.google.com" target="_blank" id="link">Google</a>
+
+</body>
+
+</html>
